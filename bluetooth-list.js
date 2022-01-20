@@ -9,7 +9,7 @@ import Layout from './components/bluetooth-list-layout'
 import Empty from './components/empty'
 import Toggle from './components/toggle'
 import Subtitle from './components/subtitle'
-import BluetoothSerial from 'react-native-bluetooth-serial-next'
+import BluetoothSerial from '@config-plugins/react-native-ble-plx'
 import Device from './components/device'
 
 function BluetoothList(props){
