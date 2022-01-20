@@ -18,6 +18,7 @@ function BluetoothList(props){
     const [bolEnable, setBolEnable] = useState(false);
     const renderEmpty = () => <Empty text={'Nenhum dispositivo Encontrado'}/>
    
+    
     const renderItem = ({item}) => {
         return <Device {...item} 
         iconLeft={require('./icones/ic_laptop.png')}
