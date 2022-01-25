@@ -1,4 +1,6 @@
 {
+  "name": "my-app",
+  "plugins":["@config-plugins/react-native-ble-plx"],
   "expo": {
     "name": "my-app",
     "slug": "my-app",

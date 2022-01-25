@@ -9,7 +9,7 @@ import Layout from './components/bluetooth-list-layout'
 import Empty from './components/empty'
 import Toggle from './components/toggle'
 import Subtitle from './components/subtitle'
-import BluetoothSerial from '@config-plugins/react-native-ble-plx' 
+import BluetoothSerial from './node_modules/@config-plugins/react-native-ble-plx' 
 import Device from './components/device'
 
 function BluetoothList(props){
@@ -18,7 +18,7 @@ function BluetoothList(props){
     const [bolEnable, setBolEnable] = useState(false);
     const renderEmpty = () => <Empty text={'Nenhum dispositivo Encontrado'}/>
    
-    
+
     const renderItem = ({item}) => {
         return <Device {...item} 
         iconLeft={require('./icones/ic_laptop.png')}
